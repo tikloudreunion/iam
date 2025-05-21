@@ -50,16 +50,20 @@ Ensure you have the following installed:
 1. Run the application locally:
 
    ```bash
-   python iam
+   fastapi dev iam
    ```
 
 2. Access the API at:
 
-The server runs on port `3000` on `localhost` by default. You can access the API at:
+The server runs on port `8000` on `localhost` by default. You can access the API at:
 
-[http://localhost:3000](http://localhost:3000)
+[http://localhost:8000](http://localhost:8000)
+
+3. Access the interactive API documentation at:
+[http://localhost:8000/docs](http://localhost:8000/docs)
+or
+[http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
